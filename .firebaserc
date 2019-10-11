@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tic-tac-toe-7fada": {
+      "hosting": {
+        "firestarter-demo": [
+          "tic-tac-toe-7fada"
+        ]
+      }
+    }
+  }
+}
