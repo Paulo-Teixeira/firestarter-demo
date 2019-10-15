@@ -46,7 +46,7 @@ $custom-orange: (
 
 // hue. Available color palettes: https://material.io/design/color/
 $firestarter-demo-primary: mat-palette($custom-orange);
-$firestarter-demo-accent: mat-palette($mat-pink, A200, A100, A400);
+$firestarter-demo-accent: mat-palette($mat-green, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $firestarter-demo-warn: mat-palette($mat-red);
