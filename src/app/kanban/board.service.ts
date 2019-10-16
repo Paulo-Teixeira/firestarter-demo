@@ -46,7 +46,7 @@ export class BoardService {
       switchMap(user => {
         if (user) {
           return this.db
-            .collection<Board>('Boards', ref =>
+            .collection<Board>('boards', ref =>
               ref.where('uid', '==', user.uid).orderBy('priority')
             )
             .valueChanges({ idField: 'id' });
