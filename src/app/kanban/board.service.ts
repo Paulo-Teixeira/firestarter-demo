@@ -38,7 +38,7 @@ export class BoardService {
     return this.db
       .collection('boards')
       .doc(boardId)
-      .update({ tasks: firebase.firestore.FieldValue.arrayRemove() });
+      .update({ tasks: firebase.firestore.FieldValue.arrayRemove(task) });
   }
 
   getUserBoards() {
